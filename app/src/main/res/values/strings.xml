@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">OpenDayNews</string>
+    <string name="url_rss_news_source">https://news.google.co.uk/news/feeds?pz=1&amp;cf=all&amp;ned=uk&amp;hl=en&amp;output=rss</string>
+    <string name="menu_bookmark">Bookmarks</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="preference_key_notification_sound">notification_sound</string>
+    <string name="preference_key_notification_vibrate">notification_vibrate</string>
+    <string name="preference_key_sync_enabled">sync_enabled</string>
+    <string name="preference_key_sync_interval">sync_interval</string>
+    <string name="preference_key_theme">theme</string>
+    <string name="preference_key_layout">layout</string>
+
+    <string name="preference_value_theme_blue">blue</string>
+    <string name="preference_value_theme_white">white</string>
+
+    <string-array name="preference_values_theme">
+        <item>@string/preference_value_theme_blue</item>
+        <item>@string/preference_value_theme_white</item>
+    </string-array>
+
+    <string-array name="preference_values_summary_theme">
+        <item>Blue</item>
+        <item>White</item>
+    </string-array>
+
+    <string name="preference_value_list_layout">list</string>
+    <string name="preference_value_grid_layout">grid</string>
+
+    <string-array name="preferences_values_layout">
+        <item>@string/preference_value_list_layout</item>
+        <item>@string/preference_value_grid_layout</item>
+    </string-array>
+
+    <string-array name="preference_values_summary_layout">
+        <item>List View</item>
+        <item>Grid View</item>
+    </string-array>
+
+    <string name="preference_title_notification_sound">Notification Sound</string>
+    <string name="preference_title_notification_vibrate">Notification Vibration</string>
+    <string name="preference_title_sync_enabled">Enable Synchronization</string>
+    <string name="preference_title_sync_interval">Synchronization Interval</string>
+    <string name="dialog_title_sync_interval">Synchronization Interval (minutes)</string>
+    <string name="preference_summary_sync_interval">%s minutes</string>
+    <string name="preference_title_theme">Theme color</string>
+    <string name="preference_title_layout">Layout</string>
+
+    <string name="notification_message">New articles available!</string>
+    <string name="toast_bookmark_deleted">Bookmark deleted!</string>
+
+</resources>

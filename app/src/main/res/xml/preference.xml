@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="@string/preference_key_notification_sound"
+        android:title="@string/preference_title_notification_sound"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="@string/preference_key_notification_vibrate"
+        android:title="@string/preference_title_notification_vibrate"
+        android:defaultValue="true" />
+
+    <Preference
+        android:title="Test Notification"
+        android:summary="See how the notification looks like" />
+
+    <CheckBoxPreference
+        android:key="@string/preference_key_sync_enabled"
+        android:title="@string/preference_title_sync_enabled"
+        android:defaultValue="true" />
+
+    <com.e45java.sn6266991.view.SyncIntervalNumberPickerPreference
+        android:key="@string/preference_key_sync_interval"
+        android:title="@string/preference_title_sync_interval"
+        android:defaultValue="5" />
+
+    <ListPreference
+        android:key="@string/preference_key_theme"
+        android:title="@string/preference_title_theme"
+        android:entries="@array/preference_values_summary_theme"
+        android:entryValues="@array/preference_values_theme"
+        android:defaultValue="@string/preference_value_theme_blue"
+        android:summary="%s" />
+
+    <ListPreference
+        android:key="@string/preference_key_layout"
+        android:title="@string/preference_title_layout"
+        android:entries="@array/preference_values_summary_layout"
+        android:entryValues="@array/preferences_values_layout"
+        android:defaultValue="@string/preference_value_list_layout"
+        android:summary="%s" />
+
+</PreferenceScreen>
