@@ -14,6 +14,7 @@ import java.util.ArrayList;
 
 /**
  * Adapter for populating {@link Bookmark} items into a {@link RecyclerView}
+ * 6266991
  */
 public class BookmarkAdapter extends RecyclerView.Adapter<BookmarkAdapter.ViewHolder> {
 

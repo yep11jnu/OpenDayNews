@@ -15,7 +15,7 @@ import com.sn6266991.entity.NewsItem;
 import java.util.ArrayList;
 
 /**
- * Created by k15bh on 06/08/2016.
+ * 6266991
  */
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
 
